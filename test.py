@@ -6,9 +6,9 @@ import numpy as np
 
 # Learning rates to test
 learning_rates = [0.01, 0.0025, 0.001]
-init_param = [1, 1]
-function = Function.beale_value
-gradient = Function.beale_gradient
+init_param = [-1, 0]
+function = Function.rosenbrock_value
+gradient = Function.rosenbrock_gradient
 
 # Define grid for contour plot
 x = np.linspace(-5, 5, 1000)
