@@ -6,7 +6,7 @@ import numpy as np
 
 # Learning rates to test
 learning_rates = [0.01, 0.0025, 0.001]
-init_param = [0, 2]
+init_param = [1, 1]
 function = Function.beale_value
 gradient = Function.beale_gradient
 
