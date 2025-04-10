@@ -64,6 +64,8 @@ for i, lr in enumerate(learning_rates):
     ax.set_title(f"Optimization Trajectories (lr={lr})")
     ax.grid(False)
 
+print("test")
+
 # Adjust layout to avoid overlap
 plt.suptitle("Beale function")
 plt.tight_layout()
